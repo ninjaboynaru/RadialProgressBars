@@ -1,0 +1,176 @@
+/*
+	Copyright (C) 2017 Thiago Henrique Pereira Cordeiro
+*/
+
+
+.Dial {
+	width:100px;
+	height:100px;
+	display:inline-block;
+	position:relative;
+}
+.Dial .Mask {
+	position:absolute;
+	width:100px;
+	height:100px;
+	clip:rect(0px, 100px, 100px, 50px);
+	
+	top:0;
+}
+.Dial .Circle {
+	position:absolute;
+	width:80px;
+	height:80px;
+	border:10px solid #0FA0CE;
+	border-radius:100%;
+	clip:rect(0px, 50px, 100px, 0px);
+	
+	transition: transform 3s linear;
+}
+.DialText {
+	display:inline;
+	position:relative;
+	top:1em;
+	
+	z-index:1;
+	font-size:1.5em;
+	font-weight:bold;
+}
+.Dial .Inset {
+	position:absolute;
+	width:80px;
+	height:80px;
+	border:10px solid #E7E7E7;
+	border-radius:100%;
+	
+	top:0;
+}
+
+/*============================================================================================*/
+
+.DialLarge {
+	width:160px;
+	height:160px;
+	display:inline-block;
+	position:relative
+}
+.DialLarge .Mask {
+	position:absolute;
+	width:160px;
+	height:160px;
+	clip:rect(0px, 160px, 160px, 80px);
+	
+	top:0;
+}
+.DialLarge .Circle {
+	position:absolute;
+	width:140px;
+	height:140px;
+	border:10px solid #0FA0CE;
+	border-radius:100%;
+	clip:rect(0px, 80px, 160px, 0px);
+	
+	transition: transform 3s linear;
+}
+.DialLarge .DialText {
+	display:inline;
+	position:relative;
+	top:1em;
+	
+	z-index:1;
+	font-size:2.5em;
+}
+.DialLarge .Inset {
+	position:absolute;
+	width:140px;
+	height:140px;
+	border:10px solid #E7E7E7;
+	border-radius:100%;
+	
+	top:0;
+}
+
+/*============================================================================================*/
+
+.DialHuge {
+	width:220px;
+	height:220px;
+	display:inline-block;
+	position:relative;
+}
+.DialHuge .Mask {
+	position:absolute;
+	width:220px;
+	height:220px;
+	clip:rect(0, 220px, 220px, 110px);
+	
+	top:0;
+}
+.DialHuge .Circle {
+	position:absolute;
+	width:180px;
+	height:180px;
+	border:20px solid #0FA0CE;
+	border-radius:100%;
+	clip:rect(0px, 110px, 220px, 0px);
+	
+	transition:transform 3s linear;
+}
+.DialHuge .DialText {
+	display:inline;
+	position:relative;
+	top:1em;
+	
+	z-index:1;
+	font-size:3.5em;
+}
+.DialHuge .Inset {
+	position:absolute;
+	width:180px;
+	height:180px;
+	border:20px solid #E7E7E7;
+	border-radius:100%;
+	
+	top:0;
+}
+
+/*============================================================================================*/
+
+.RedCircle {
+	border-color:#ED6A5A !important;
+}
+.YellowCircle {
+	border-color:#FFEA82 !important;
+}
+.PurpleCircle {
+	border-color:#C0498A !important;
+}
+.BlackCircle {
+	border-color:#4A4949 !important;
+}
+
+.RedFill {
+	background-color:#ED6A5A !important;
+}
+.YellowFill {
+	background-color:#FFEA82 !important;
+}
+.PurpleFill {
+	background-color:#C0498A !important;
+}
+.BlackFill {
+	background-color:#4A4949 !important;
+}
+.BlueFill {
+	background-color:#0FA0CE !important;
+}
+
+
+
+
+
+
+
+
+
+
