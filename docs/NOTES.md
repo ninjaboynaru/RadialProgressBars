@@ -2,7 +2,6 @@
 *There are spelling and grammr errors. I type fast and this was intended for personal use, thus it was not spell checked*
 
 ## Tutorials
-===============================================
 Good img guide for "clip:" property along with corisponding code
 [https://codropspz-tympanus.netdna-ssl.com/codrops/wp-content/uploads/2013/01/schema1.jpg]
 [clip: rect(40px, 260px, 150px, 80px)]
@@ -18,7 +17,6 @@ https://css-tricks.com/get-value-of-css-rotation-through-javascript/
 
 
 ## Clip Property
-===============================================
 Only "absolute" position elements support clipping. This includes "fixed" position elements.
 
 "clip:" has been removed from the Web Standards and is in the process of beaing droped.
@@ -32,12 +30,10 @@ Their parents wont expand to fit them.
 
 
 ## Absolute Property
-===============================================
 When the size is set for an absolute element in %, it is a percent of the browser size, not its parent size;
 
 
 ## Transitions
-===============================================
 	CSS transitions are a way of specifying the how the properties of elements 
 	change from one state to another regardless of the start and end states.
 
@@ -45,10 +41,8 @@ When the size is set for an absolute element in %, it is a percent of the browse
 	"transition: all duration"
 	"transition: duration"
 
-	"element.getComputedStyle()" to get an elements style properties at a point in the 
-	transition.
-	"element.getComputedStyle().getPropertyValue(margin-left)" to get a specific
-	property at some point.
+	"element.getComputedStyle()" to get an elements style properties at a point in the transition.
+	"element.getComputedStyle().getPropertyValue(margin-left)" to get a specific property at some point.
 
 	Set the elements style properties with the above code to prevent the element
 	from reverting back to its initial state after the transition is cancled.
@@ -58,7 +52,6 @@ When the size is set for an absolute element in %, it is a percent of the browse
 
 	
 ## Client Width and Height
-===============================================
  Element.clientWidth property is zero for elements with no CSS or inline layout boxes.
  The same applies for Element.clientHeight.
 
@@ -66,13 +59,11 @@ When the size is set for an absolute element in %, it is a percent of the browse
 
 
 ## GetRotation
-===============================================
 At the moment, the GetRotation() will return 0 for 360 degrees. So far this can be 
 compensated for.
 
 
 ## Calling TurnDial(...) back to back
-=======================================
   TurnDial(...) should not be called on a dial while it is still turning because the 
  ApplyMask(...) or RemoveMask(...) from the previous call will still occure along with the
  current one.
@@ -80,7 +71,6 @@ compensated for.
   The previous one can not be stoped because the id of the timer is not stored.
 
 ## Proper Sizing
-==============
 - The container can be an size (.Dial)
 
 - The mask (.Mask) must have the same size as the circle's (.Circle) actual size.
@@ -99,7 +89,6 @@ compensated for.
   beaing used but also the border.
 
 ## Getting the sizes and clipping right
-===============================================
 - The goal is to cover half the the circle, not the wrapper/mask or the dial, but the circle.
 - Thus the mask must clip starting at the half point of the circle.
 
