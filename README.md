@@ -8,8 +8,6 @@ Radial Progress Bars is a circular progress bar system made with pure CSS and va
 
 It primarly utilizes the *clip* and transition properties to achive the end result. The dials are relative positioned, inline-block elements with fixed width and height.  
 
-Currently no browser prefixes are used so this may not work with old versions of browsers and may not work with Internet Explorer.
-
 ![CircularProgressBars](https://raw.githubusercontent.com/ninjaboynaru/RadialProgressBars/master/Docs/ExamplePic_1.JPG "Circular Progress Bars")
 
 
@@ -117,29 +115,4 @@ To change the size simply change the class of the container div element as such
 #### Also note that the fallowing elements are not required (Inset is the gray circle that is filled)
 ```html
 <div class="DialText"> and <div class="Inset"> elements are not required
-```
-   
-     
-
-## License
-```
-Copyright (C) 2017 Thiago Henrique Pereira Cordeiro
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
-2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
-3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS 
-OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF 
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE 
-COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, 
-EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
-GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED 
-AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING 
-NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED 
-OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
