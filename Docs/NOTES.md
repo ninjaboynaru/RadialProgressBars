@@ -1,5 +1,4 @@
 # Interesting notes taken during development
-*There are spelling and grammr errors. I type fast and this was intended for personal use, thus it was not spell checked*
 
 ## Tutorials
 Good img guide for "clip:" property along with corisponding code
