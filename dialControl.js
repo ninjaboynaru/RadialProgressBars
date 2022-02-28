@@ -1,7 +1,3 @@
-/*
-	Copyright (C) 2017 Thiago Henrique Pereira Cordeiro
-*/
-
 function Rotate(element, degrees)
 {
 	element.style.transform = "rotate(" + degrees + "deg)";
